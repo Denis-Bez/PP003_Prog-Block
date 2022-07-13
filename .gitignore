@@ -1,0 +1,5 @@
+.vscode/
+.vscode
+.worldcadabra
+__pycache__
+config.py
