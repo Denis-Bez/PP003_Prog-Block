@@ -64,7 +64,11 @@
 
 <body>
 
-    {% block body %}{% endblock %}
+    {% block body %}
+    <form action="{{ url_for('index') }}" method="post">
+    <button type="submit" class="btn btn-danger">VERY DANGEROUSE!</button>
+    </form>
+    {% endblock %}
 
 
 </body>
